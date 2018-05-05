@@ -9,4 +9,4 @@ Basic JS code to check if your **CRA** has changed.
 3. Run it.
 
 ### Example:
-![captura de tela de 2018-05-04 23-52-09](https://user-images.githubusercontent.com/26657147/39659047-312d2592-4ff6-11e8-83d8-9acf77ebe1a8.png)
+![esse](https://user-images.githubusercontent.com/26657147/39659309-0130ea94-4ffc-11e8-9f25-8bb72322269e.png)
