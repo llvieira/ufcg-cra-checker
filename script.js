@@ -17,6 +17,14 @@ for (var i = 1; i < rowCount; i++) {
 	}
 }
 
-var gpa = Number(values / weights).toFixed(2);
+var expectedCra = Number(values / weights).toFixed(2);
+var currentCra = parseFloat($('.panel-body:last > div > div').eq(1).text().replace(",", "."));
 
-console.log("GPA: " + gpa + " / 10.0");
+console.log("Expected CRA: " + expectedCra);
+console.log("Current CRA: " + currentCra);
+
+if (expectedCra != currentCra) {
+	console.log("Your CRA has been changed!!!");
+} else {
+	console.log("\nNothing changed in your CRA!!!");
+}
